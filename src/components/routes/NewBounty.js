@@ -11,6 +11,7 @@ export default function NewBounty (){
         client: " ",
         reward: 0,
         lastSeen: " ",
+        captured: false
     })
     const [errorMessage, setErrorMessage] = useState(" ")
     const navigate = useNavigate()
